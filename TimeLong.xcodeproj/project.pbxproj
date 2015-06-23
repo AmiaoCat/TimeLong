@@ -14,6 +14,7 @@
 		50B137851B1466FB00F1118E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B137841B1466FB00F1118E /* Images.xcassets */; };
 		50B137881B1466FB00F1118E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B137861B1466FB00F1118E /* LaunchScreen.xib */; };
 		50B137941B1466FB00F1118E /* TimeLongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B137931B1466FB00F1118E /* TimeLongTests.m */; };
+		50B1379F1B14672000F1118E /* Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B1379E1B14672000F1118E /* Time.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		50B1378D1B1466FB00F1118E /* TimeLongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeLongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B137921B1466FB00F1118E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B137931B1466FB00F1118E /* TimeLongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeLongTests.m; sourceTree = "<group>"; };
+		50B1379D1B14672000F1118E /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		50B1379E1B14672000F1118E /* Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Time.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				50B137841B1466FB00F1118E /* Images.xcassets */,
 				50B137861B1466FB00F1118E /* LaunchScreen.xib */,
 				50B137771B1466FB00F1118E /* Supporting Files */,
+				50B1379D1B14672000F1118E /* Time.h */,
+				50B1379E1B14672000F1118E /* Time.m */,
 			);
 			path = TimeLong;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B1379F1B14672000F1118E /* Time.m in Sources */,
 				50B137801B1466FB00F1118E /* ViewController.m in Sources */,
 				50B1377D1B1466FB00F1118E /* AppDelegate.m in Sources */,
 				50B1377A1B1466FB00F1118E /* main.m in Sources */,
